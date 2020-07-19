@@ -45,9 +45,8 @@ We would like you to have well over 200 commits by graduation, so commit early a
 
 ## Submission on BCS
 
-You are required to submit the following:
-
 * the URL to the deployed application
 
 * the URL to the Github repository
+https://github.com/Tpoppp77/employee-directory
 
