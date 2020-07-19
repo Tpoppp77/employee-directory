@@ -25,7 +25,7 @@ function EmployeeCard (props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
+      <span onClick={() => props.sort(props.name)} className="name-employee">
         𝘅
       </span>
     </div>
