@@ -9,13 +9,19 @@ function EmployeeCard (props) {
       <div className="content">
         <ul>
           <li>
+            <strong>Image:</strong> {props.image}
+          </li>
+          <li>
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Phone Number:</strong> {props.number}
+            <strong>Phone:</strong> {props.phone}
           </li>
           <li>
             <strong>Email:</strong> {props.email}
+          </li>
+          <li>
+            <strong>DOB:</strong> {props.DOB}
           </li>
         </ul>
       </div>

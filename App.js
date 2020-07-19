@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import employees from "./employees.json";
