@@ -8,6 +8,14 @@
 
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
+## Installation 
+
+npm i
+
+## Run
+
+npm start
+
 ## Acceptance Criteria
 
 Given a table of random users, when the user loads the page, a table of employees should render. 
@@ -21,7 +29,7 @@ The user should be able to:
 ## Submission on BCS
 
 * the URL to the deployed application
-
+https://tpoppp77.github.io/employee-directory/
 * the URL to the Github repository
 https://github.com/Tpoppp77/employee-directory
 

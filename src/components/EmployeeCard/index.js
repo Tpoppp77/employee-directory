@@ -25,9 +25,9 @@ function EmployeeCard (props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.sortEmployeeName(props.name)} className="name-employee">
+      {/* <span onClick={() => props.sortEmployeeName(props.name)} className="name-employee">
         𝘅
-      </span>
+      </span> */}
     </div>
   );
 }

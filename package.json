@@ -19,18 +19,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tpoppp77/employee-directory.git"
   },
   "author": "Thomas C. Olson",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tpoppp77/employee-directory/issues"
-  },
   "homepage": "https://github.com/Tpoppp77/employee-directory#readme",
   "browserslist": {
     "production": [
