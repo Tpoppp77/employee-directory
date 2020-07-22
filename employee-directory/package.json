@@ -1,15 +1,12 @@
 {
   "name": "employee-directory",
-  "version": "1.0.0",
-  "description": "For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.",
-  "main": "App.js",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.5.0",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
@@ -19,13 +16,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tpoppp77/employee-directory.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Thomas C. Olson",
-  "license": "ISC",
-  "homepage": "https://github.com/Tpoppp77/employee-directory#readme",
   "browserslist": {
     "production": [
       ">0.2%",
