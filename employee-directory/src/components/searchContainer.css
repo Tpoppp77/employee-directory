@@ -1,0 +1,49 @@
+.card {
+    background: #fff;
+    border-radius: 2px;
+    height: 325px;
+    margin: 1rem;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  }
+  
+  .card > .img-container {
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/55ad450ce4b00f4c52d6401e/1468870846120-CVFMHXI3EV3YX59M3VX5/ke17ZwdGBToddI8pDm48kEJ6e1F7rvJOGLXBue7vS9F7gQa3H78H3Y0txjaiv_0fypf6lmgoLGWA2VfxjamN-qEKJFeAxzfX84zci0ICoMmplUIB77utV0SH3QLyqo6UOqpeNLcJ80NK65_fV7S1UdcjI1cbCuk2NiJ5VQLGSsho7hjw4HcFLieKDIyokV8kQKnkgu1CjACuGd09OcDW5A/Christian+Webb-test+shots-Atlanta-backgrounds");
+    background-size: auto;
+    /* background:#6CADDC; */
+  }
+  .card > .img-container > img {
+    width: 60%
+  }
+  
+  .card > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
+  
+  .card > .content > ul {
+    list-style-type: none;
+  }
+  
+  .card > .content > ul > li {
+    margin-top: 18px;
+  }
+  
+  .card > .remove {
+    color: #ff1744;
+    font-size: 48px;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    cursor: pointer;
+  }
+  
+  .card > .remove:hover {
+    color: #d50000;
+  }

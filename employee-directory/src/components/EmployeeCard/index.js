@@ -9,7 +9,7 @@ function EmployeeCard (props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Image:</strong> {props.image}
+            <strong></strong> {props.image}
           </li>
           <li>
             <strong>Name:</strong> {props.name}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Search from "./components/Search/Search";
-import Wrapper from "./components/Wrapper/Wrapper";
+import Wrapper from "./components/Wrapper/index";
 import Employees from "./employees.json";
 
 class SearchContainer extends Component {
