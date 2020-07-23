@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Search from "./components/Search/Search";
 import Wrapper from "./components/Wrapper/index";
 import Employees from "./employees.json";
+// import {  } from "./components/SearchContainer/searchContainer.css";
 
 class SearchContainer extends Component {
     constructor(props) {
