@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SearchContainer from "./components/SearchContainer/SearchContainer"
+import SearchContainer from "./SearchContainer"
 // import EmployeeCard from "./components/EmployeeCard";
 // import Wrapper from "./components/Wrapper";
 // import Title from "./components/Title";
