@@ -26,7 +26,7 @@ class SearchContainer extends Component {
         const list = Employees.filter((data) => {
             if (this.state.search === null) {
                 return data
-            } else if (data.name.toLowerCase().includes(this.state.search.toLowerCase()) || data.occupation.toLowerCase().includes(this.state.search.toLowerCase())) {
+            } else if (data.name.toLowerCase().includes(this.state.search.toLowerCase()) || data.name.toLowerCase().includes(this.state.search.toLowerCase())) {
                 return data
             }
         }).map((data) => {
